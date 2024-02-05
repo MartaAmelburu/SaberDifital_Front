@@ -1,0 +1,33 @@
+.sobreNosotrosTitle{
+    font-family: 'syncopate';
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+.sobreNosotrosTitles{
+    font-family: 'syncopate';
+    text-align: center;
+    margin-bottom: 60px;
+    
+   
+}
+
+.sobreNosotrosP{
+    font-family: 'montserrat';
+    text-align: left;
+    margin-left: 30px;
+}
+
+.iconoTitle{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.margenesContenedor{
+    align-items: center;
+    margin-bottom: 60px;
+}

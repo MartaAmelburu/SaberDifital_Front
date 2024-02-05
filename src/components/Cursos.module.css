@@ -1,0 +1,61 @@
+
+.cajas{
+    margin-left: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    text-align: left;
+}
+.cardImg{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.card{
+    width: 24%;
+    padding: 0;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.484);
+
+    button{
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        background-color: rgba(112, 65, 246, 0.52);
+        color: white;
+        font-weight:450;
+        font-family: 'Montserrat';
+        font-size: 18px;
+   
+    }
+    button:hover {
+        outline: solid rgba(112, 65, 246, 0.52) 2px;
+    } 
+    p{
+        text-align: justify;
+    }
+}
+.titulo{
+    font-family: 'Syncopate';
+    font-size: 40px;
+    /* margin-left: 10%; */
+    margin-top: 30px;
+    /* text-align: left; */
+}
+.categoria{
+   margin: 30px 0px;
+   
+   h2{
+    margin-left: 10%;
+    text-align: left;
+    font-family: 'montserrat';
+    margin-bottom: 20px;
+   }
+   
+}
+.cardFooter{
+    color: rgba(60, 255, 0, 0.14);
+
+}
+

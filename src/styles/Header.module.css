@@ -1,0 +1,50 @@
+
+.navDiv{
+    border-bottom: solid #d1d7dc 1px ;
+    
+}
+.disp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 0rem 2rem;
+    margin-bottom: 20px;
+}
+
+.linkBotonesHeader {
+    text-decoration: none;
+}
+
+.botonesHeader{
+    display:flex;
+    gap: 12px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    outline: solid rgba(112, 65, 246, 0.52) 1px;
+    margin: 0px 15px;
+    padding: 7px 20px;
+    border-radius: 40px;
+    border: none; 
+    box-shadow: 3.5px 4px 9px 0px rgba(0,0,0,0.25);
+}
+
+.botonesHeader:hover{
+    outline: solid rgba(112, 65, 246, 0.52) 2px;
+    background-color: rgba(112, 65, 246, 0.14);
+    
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.buscadorIcono{
+    position: absolute;
+    left: 12px;
+    top: 6px;
+}
+
+

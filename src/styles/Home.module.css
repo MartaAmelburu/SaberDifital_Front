@@ -1,0 +1,163 @@
+
+.textoHome{
+    position: absolute;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 30px;
+    top: 50px;
+    left: 50px;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+.botonHome{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 20px 25px;
+    top: 320px;
+    right: 50px;
+    border-radius: 50px;
+    font-family: 'montserrat';
+    font-weight: 450;
+    font-size: 20px;
+    border: solid rgba(112, 65, 246, 0.52) 2px;
+}
+
+.botonHome:hover{
+    border: solid rgba(112, 65, 246, 0.52) 4px;
+    padding: 18px 23px;
+    background-color: #ece4fc;
+    
+}
+.tituloHome{
+    font-family: 'syncopate';
+    font-weight:bold;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+    top: 30%;
+    left: 20%;
+    margin-bottom: 20px;
+}
+
+.parrafoHome{
+    font-family:'montserrat';
+    font-size: 18px;
+    max-width: 600px;
+    color: rgb(0, 0, 0);
+
+}
+
+.bloqueSlider{
+    
+    background-color: rgb(rgba(255, 255, 255, 0.441));
+    width: 50px;
+    height: 50px;
+
+}
+.titulosh2{
+    font-family: 'syncopate';
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+.hiddenImg{
+    width: 90%;
+    visibility: hidden;
+}
+.slider{
+    position: relative;
+    background-image: url(../../public/assets/home-img.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.bloquesNosAdaptamos {
+    margin: 2rem 0;
+    padding: 0 2rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;  
+    gap: 1rem;
+}
+
+.bloqueNosAdaptamos {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+
+
+.bloqueNosAdaptamos h3 {
+    font-size: 18px;
+    
+}
+
+
+.nuestrosCursos{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    
+}
+
+.videosCursos{
+    border-radius: 30px;
+    box-shadow: 8px 7px 9px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    
+}
+
+.fondo{
+    background-color: #ece4fc;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px 50px; 
+    
+}
+
+
+.botonVerCursos{
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(112, 65, 246, 0.52);
+    color: white;
+    font-family: 'montserrat';
+    font-size: 18px;
+    font-weight:450;
+    margin-top: 60px;
+}
+
+.divsVideos{
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight:500;
+
+}
+.contenedorVideo{
+    position:relative;
+   
+    
+}
+
+.playBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.colorEnlaces{
+    color: rgba(113, 65, 246, 0.986);
+    
+}

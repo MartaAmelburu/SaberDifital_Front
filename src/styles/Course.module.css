@@ -1,0 +1,134 @@
+.courseContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 300px;
+  gap: 20px;
+}
+
+.mediaCursoImg {
+  width: 100%;
+}
+
+.mediaCursoVideo {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+.imagenContent {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%);
+
+  overflow: auto;
+  width: 65%;
+  height: 100%;
+}
+.contentButton {
+  width: 15%;
+
+  button:hover {
+    background-color: rgba(112, 65, 246, 0.52);
+  }
+}
+.content {
+  width: 60%;
+  background-color: #2d2f31;
+  color: white;
+  border-radius: 30px;
+  margin-left: 40px;
+}
+.contentButtonAnterior {
+  position: absolute;
+  left: 0.5%;
+  top: 50%;
+  transform: translate(0%, 20%);
+
+  button {
+    background-color: #1c1d1f;
+    color: #dedede;
+    border: solid white 1px;
+    border-radius: 30px;
+    font-weight: bold;
+    float: right;
+    font-size: 18px;
+    padding: 15px;
+    width: 120px;
+  }
+}
+.contentButtonSiguiente {
+  position: absolute;
+  right: 0.5%;
+  top: 50%;
+  transform: translate(0%, 20%);
+
+  button {
+    background-color: #1c1d1f;
+    color: #dedede;
+    border: solid white 1px;
+    border-radius: 30px;
+    font-weight: bold;
+    float: right;
+    font-size: 18px;
+    padding: 15px;
+    width: 120px;
+  }
+}
+.contentHeader {
+  text-align: left;
+  margin-top: 40px;
+  padding: 0px 50px;
+  h3 {
+    font-family: "syncopate";
+    font-size: 40px;
+  }
+}
+.contentBody {
+  position: relative;
+  height: 450px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+}
+.list {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  li {
+    border-top: solid #d1d7dc 1px;
+    width: auto;
+    height: 5rem;
+    padding-left: 25px;
+    border-radius: 20px;
+  }
+  li:hover {
+    background-color: #ece4fc;
+  }
+  input {
+    accent-color: rgba(112, 65, 246, 0.52);
+  }
+}
+
+.listElem {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 30px;
+  }
+  cursor: pointer;
+}
+
+.listElem input {
+  position: relative;
+  top: -2px;
+}

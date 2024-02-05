@@ -1,0 +1,121 @@
+.titulosh2{
+    font-family: 'syncopate';
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.titulosh3{
+    font-family: 'montserrat';
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.parrafosConfig{
+    font-family: 'montserrat';
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.botonesConfig{
+    background-color: #ece4fc;
+    padding: 50px;
+    border-radius: 40px;
+    border:none;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+.separarBotones{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0px auto;
+    
+}
+.separarBotonesTema{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0px auto;
+    
+}
+
+.separarInputs{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.textoEjemplo1{
+    font-size: 16px;
+}
+
+.textoEjemplo2{
+    font-size: 18px;
+}
+
+.textoEjemplo3{
+    font-size: 20px;
+}
+
+.inputTamaño{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    transform: scale(2);
+}
+
+.botonesTemas{
+    padding: 50px;
+    border-radius: 40px;
+    margin-bottom: 30px; 
+    margin-top: 40px;
+    border:none;
+    align-items: center;
+
+}
+
+.temaClaro{
+    background-color: white;
+    outline: solid black 1px;
+    font-family: 'montserrat';
+}
+.temaOscuro{
+    background-color: rgba(94, 90, 90, 1);
+    color: white;
+    font-family: 'montserrat';
+    
+}
+
+.botonGuardar{
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        background-color: rgba(112, 65, 246, 0.52);
+        color: white;
+        font-family: 'montserrat';
+        font-size: 18px;
+        font-weight:450;
+        margin-top: 60px;
+        margin-right: 15px;
+        box-shadow: 3.5px 4px 9px 0px rgba(0,0,0,0.25);
+}
+
+.botonReestablecer{
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: solid black 1px;
+        background-color: white;
+        color: black;
+        font-family: 'montserrat';
+        font-size: 18px;
+        font-weight:450;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 15px;
+        box-shadow: 3.5px 4px 9px 0px rgba(0,0,0,0.25);
+}

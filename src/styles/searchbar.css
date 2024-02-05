@@ -1,0 +1,38 @@
+.react-datalist-input__container {
+    background-color: white;
+  }
+
+.react-datalist-input__textbox{
+      margin-right: 50px;
+      padding: 7px 34px;
+      background-color: white;
+      color: rgb(170, 170, 170);
+      border-radius: 40px;
+      border-width: 0.9px;
+    }
+
+.react-datalist-input__listbox{
+list-style: none;
+padding: 0;
+  text-align: left;
+  width: 82%;
+  position: absolute;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  border: solid black 1px
+}
+
+.react-datalist-input__listbox-option{
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.react-datalist-input__listbox-option:not(:last-child){
+  border-bottom: solid black 1px;
+  padding-bottom: -1px;
+}
+
+
+.react-datalist-input__listbox-option:hover{
+  background-color: rgb(224, 224, 224);
+}
