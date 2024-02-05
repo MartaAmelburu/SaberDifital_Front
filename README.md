@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Saber Digital
 
-Currently, two official plugins are available:
+Client-side code for the final project of the "Fundació Esplai" FullStack JavaScript bootcamp with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Authors
+
+- [@MartaAmelburu](https://github.com/MartaAmelburu)
+- [@AlbertMontserrat](https://github.com/albert00413)
+- [@ZinebAbdou](https://github.com/zinebabdou)
+
+
+
+
+## Tech
+
+**Client:** React, Bootstrap, html, css
+
+**Server:** Node, Express, MySql
+
+
+## About this project
+
+"Saber Digital" is a proposal aimed at bridging the digital divide and teaching people who have not had the opportunity to use technology through online courses.
+
